@@ -12,7 +12,7 @@ end
 #
 # gotcha:
 #   'and' is NOT good for logical operations!  Yes, you can use it; but
-#   better use it for other purpose.  The 'and' and 'or' operators were
+#   better use it for other purposes.  The 'and' and 'or' operators were
 #   actually borrowed from Perl; they are usually used for conditional
 #   executions, although you can use them in expressions if you are careful.
 #   Basically, 'foo and bar' is just another way of saying 'bar if foo'.
@@ -22,7 +22,7 @@ end
 #   evaluate 'a=b' first, and, if a is true-ish, return c happily.
 #
 def sum_to_n?(arr, n)
-  # I didn't really get it.  If we return true for ([], 0), why don't we
+  # I don't really get it.  If we return true for ([], 0), why don't we
   # return true for ([1,2,3], 0)?
   # Btw, I'd be more explicit: return n == 0 if arr.empty?
   # (some folks prefer n.zero?, though)
