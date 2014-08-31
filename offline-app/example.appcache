@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+CACHE:
+/tb99.gif
+/not-accessable.html
+
+FALLBACK:
+/tb99.gif /bd_logo.png
+
+
+# revision 6
